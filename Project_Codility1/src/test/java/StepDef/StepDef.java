@@ -22,19 +22,19 @@ public void open_the_Chrome_and_launch_the_application() throws Throwable {
 	String val = driver.getTitle();
 	System.out.println(val);
 	driver.findElement(By.xpath("//span[contains(text(),'Tools & Frameworks')]")).click();
-	 throw new PendingException();
+	 //throw new PendingException();
 }
 
 @When("^Enter the Username and Password$")
 public void enter_the_Username_and_Password() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
+   // throw new PendingException();
 }
 
 @Then("^Reset the credential$")
 public void reset_the_credential() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
+   //Throw new PendingException();
 }
 
 
