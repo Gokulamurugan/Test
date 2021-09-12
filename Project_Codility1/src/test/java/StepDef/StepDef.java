@@ -28,7 +28,7 @@ public void open_the_Chrome_and_launch_the_application() throws Throwable {
 @When("^Enter the Username and Password$")
 public void enter_the_Username_and_Password() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
-   // throw new PendingException();
+   // throw new PendingException();test
 }
 
 @Then("^Reset the credential$")
