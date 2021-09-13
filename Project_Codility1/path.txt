@@ -1,0 +1,2 @@
+Chromedriverpath=C:\\Users\\Automation\\chromedriver.exe
+URL=https://testscriptdemo.com/

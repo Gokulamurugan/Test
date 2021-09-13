@@ -1,13 +1,15 @@
-Feature: Reset functionality on login page of Application 
+Feature: Verify my wishlist and my cart Functionality of the Application 
 
+Scenario: Verification of Item in my cart 
 
-Scenario: Verification of Reset button 
+Given I add four different products to my wish list	
 
+When I view my wishlist table
 
-Given Open the Chrome and launch the application			
+Then I find total four selected items in my Wishlist
 
+When I search for lowest price product
 
-When Enter the Username and Password			
+And I am able to add the lowest price item to my cart
 
-
-Then Reset the credential
+Then I am able to verify the item in my cart
