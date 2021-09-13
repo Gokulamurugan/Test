@@ -44,8 +44,7 @@ public void i_search_for_lowest_price_product() throws Throwable {
 
 @When("^I am able to add the lowest price item to my cart$")
 public void i_am_able_to_add_the_lowest_price_item_to_my_cart() throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    //throw new PendingException();
+	PageFactory.demoShop_HomePage.lowest_prise_Item_Add_cart();
 }
 
 @Then("^I am able to verify the item in my cart$")

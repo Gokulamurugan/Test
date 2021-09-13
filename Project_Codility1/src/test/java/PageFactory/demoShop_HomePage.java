@@ -84,22 +84,9 @@ public class demoShop_HomePage extends commonactions {
 				Thread.sleep(500);
 				 String outval = Wishlist_Item_lowest_price(wishList_Webtable);
 				 Item_Value = outval.split("£");
-				System.out.println(Item_Value[3]);
+				System.out.println(Item_Value[4]);
 				 
-//				 int[] number= new int[Item_Value.length];
-//				 for(int i =0;i<Item_Value.length;i++) {
-//					 number[i] = Integer.parseInt(Item_Value[i]);
-//					 System.out.println(number[i]);
-//				 }
-				 
-				// System.out.println(outval);
-				 //Arrays.sort(Item_Value);
-				 //System.out.println(Item_Value[2]);
-				 //double f= Double.parseDouble(Item_Value[2]);
-				 //int[] intarray = Arrays.stream(Item_Value).mapToInt(Integer::parseInt).toArray();
-//				 double[] doubleArray = Arrays.stream(Item_Value).mapToDouble(Double::valueOf).toArray();
-				 //System.out.println(intarray);
-				
+//		
 				} catch (Exception e) {
 				e.printStackTrace();
 				}
@@ -109,7 +96,7 @@ public class demoShop_HomePage extends commonactions {
 			try {
 				
 				Thread.sleep(500);
-				Wishlist_Item_addto_cart(wishList_Webtable,"");
+				Wishlist_Item_addto_cart(wishList_Webtable,Item_Value[4]);
 				
 				
 				} catch (Exception e) {
