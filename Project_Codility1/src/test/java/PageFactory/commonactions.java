@@ -125,11 +125,10 @@ public static void Wishlist_Item_addto_cart(String xpath, String expval) throws 
 	
 	  List Wishlst_item1 = driver.findElements(By.xpath(xpath));
 	   int Cunt =Wishlst_item1.size();
-	  
 	 
   for (int i =1;i<Cunt+1;i++) {
 	  String Actval= driver.findElement(By.xpath("//table[contains(@class,'shop_table cart wishlist_table wishlist')]/tbody/tr["+i+"]/td[5]/preceding::bdi[1]")).getText();
-
+	   Actval=  Actval.replace("£", "");
 	  if(Actval.contentEquals(expval)) {
 		  driver.findElement(By.xpath("//table[contains(@class,'shop_table cart wishlist_table wishlist')]/tbody/tr["+i+"]/td[6]/a")).click();
 		Thread.sleep(1000);

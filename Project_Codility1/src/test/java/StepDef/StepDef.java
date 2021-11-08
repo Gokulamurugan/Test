@@ -50,7 +50,7 @@ public void i_am_able_to_add_the_lowest_price_item_to_my_cart() throws Throwable
 @Then("^I am able to verify the item in my cart$")
 public void i_am_able_to_verify_the_item_in_my_cart() throws Throwable {
     
-	//commonactions.Browser_Close();
+	commonactions.Browser_Close();
 	
 }
 

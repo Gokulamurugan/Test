@@ -103,11 +103,4 @@ public class demoShop_HomePage extends commonactions {
 				e.printStackTrace();
 				}
 			}
-	
-	
-	
-	
-	
-	
-
 }
