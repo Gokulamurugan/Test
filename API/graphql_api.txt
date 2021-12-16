@@ -1,0 +1,14 @@
+BaseUri=https://api.spacex.land
+RequestPayload={"query":"{\n  launchesPast(limit: ^^) {\n    mission_name\n    launch_date_local\n    launch_site {\n      site_name_long\n    }\n    links {\n      article_link\n      video_link\n    }\n    rocket {\n      rocket_name\n      first_stage {\n        cores {\n          flight\n          core {\n            reuse_count\n            status\n          }\n        }\n      }\n      second_stage {\n        payloads {\n          payload_type\n          payload_mass_kg\n          payload_mass_lbs\n        }\n      }\n    }\n    ships {\n      name\n      home_port\n      image\n    }\n  }\n}","variables":null}
+RequestPayload_limit_Offset={"query":"{\n  launchesPast(limit: ^^, offset: ??) {\n    mission_name\n    launch_date_local\n    launch_site {\n      site_name_long\n    }\n    links {\n      article_link\n      video_link\n    }\n    rocket {\n      rocket_name\n      first_stage {\n        cores {\n          flight\n          core {\n            reuse_count\n            status\n          }\n        }\n      }\n      second_stage {\n        payloads {\n          payload_type\n          payload_mass_kg\n          payload_mass_lbs\n        }\n      }\n    }\n    ships {\n      name\n      home_port\n      image\n    }\n  }\n}\n","variables":null}
+RequestPayload_limit_val1=10
+RequestPayload_limit_val2=7
+RequestPayload_LF_limit=5
+RequestPayload_LF_offset=6
+Statuscode=200
+missionName_jpath=data.launchesPast
+missionName_val=Starlink
+Launch_jpath=data.launchesPast.rocket
+Ships_jpath=data.launchesPast.ships
+rocket_1_jpath=data.launchesPast.rocket.first_stage
+rocket_2_jpath=data.launchesPast.rocket.second_stage

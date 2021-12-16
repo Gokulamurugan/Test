@@ -1,0 +1,26 @@
+Chromedriverpath<>C:\\Users\\Automation\\Driver\\chromedriver.exe
+URL<>https://www.saucedemo.com/
+Username<>standard_user
+Password<>EsMNOInhseOZYl8CkeoM5g==
+secretKey<>jkeaj84#@%yj
+Firstname<>gokul
+Lastname<>murugan
+Zipcode<>ub24fs
+ProSort<>Price (high to low)
+Ckoutcomp<>THANK YOU FOR YOUR ORDER
+UserName_path<>//input[@id='user-name']
+Password_path<>//input[@id='password']
+Loginbutton_path<>//input[@id='login-button']
+Loginbutton_path<>//input[@id='login-button']
+Productdp_path<>//select[@class='product_sort_container']
+ItemPrice_path<>//div[@class='inventory_item_price']
+Addcart_path<>(//div[@class='inventory_item_price'])[VL^]//following-sibling::button
+Basket_path<>//a[@class='shopping_cart_link']
+Checkout_path<>//button[@id='checkout']
+Firstname_path<>//input[@id='first-name']
+Lastname_path<>//input[@id='last-name']
+Zipcode_path<>//input[@id='postal-code']
+Continue_path<>//input[@id='continue']
+Finish_path<>//button[@id='finish']
+PriceSort_path<>//*[@class='active_option']
+Ckout_path<>//*[@class='complete-header']

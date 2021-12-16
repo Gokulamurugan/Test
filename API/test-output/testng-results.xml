@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-16T17:46:42 GMT" name="Default suite" finished-at="2021-12-16T17:47:17 GMT" duration-ms="34527">
+    <groups>
+    </groups>
+    <test started-at="2021-12-16T17:46:42 GMT" name="Default test" finished-at="2021-12-16T17:47:17 GMT" duration-ms="34527">
+      <class name="global.API.test_api">
+        <test-method signature="test_queries_API_for_all_launches()[pri:1, instance:global.API.test_api@2f8dad04]" started-at="2021-12-16T17:46:42 GMT" name="test_queries_API_for_all_launches" finished-at="2021-12-16T17:46:55 GMT" duration-ms="12377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_queries_API_for_all_launches -->
+        <test-method signature="test_update_limit_parameter_and_returns_number_of_launches()[pri:2, instance:global.API.test_api@2f8dad04]" started-at="2021-12-16T17:46:55 GMT" name="test_update_limit_parameter_and_returns_number_of_launches" finished-at="2021-12-16T17:47:06 GMT" duration-ms="10973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_limit_parameter_and_returns_number_of_launches -->
+        <test-method signature="test_update_offset_parameter_and_returns_number_of_launches()[pri:3, instance:global.API.test_api@2f8dad04]" started-at="2021-12-16T17:47:06 GMT" name="test_update_offset_parameter_and_returns_number_of_launches" finished-at="2021-12-16T17:47:17 GMT" duration-ms="11139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_offset_parameter_and_returns_number_of_launches -->
+      </class> <!-- global.API.test_api -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
